@@ -14,3 +14,8 @@ Se envía correo para la validación de las historias de usuario y definir el pr
 Se crea el repositorio organizacional y se comparte/asocia el equipo de trabajo
 Nos reunimos para revisar las historias de usuario y se define la historia pivote
 
+## septiembre 6
+
+Nos reunimos para dar peso a las historias de usuario
+Revisamos el mockup y definimos algunos ajustes
+
