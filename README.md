@@ -19,3 +19,7 @@ Nos reunimos para revisar las historias de usuario y se define la historia pivot
 Nos reunimos para dar peso a las historias de usuario
 Revisamos el mockup y definimos algunos ajustes
 
+## septiembre 7
+
+En la reunión del daily se definieron tareas para el equipo de trabajo, iniciando por la creación del index del portal y la recolección de la información que va alimentar al sitio
+
