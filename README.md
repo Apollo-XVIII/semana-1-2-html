@@ -23,3 +23,8 @@ Revisamos el mockup y definimos algunos ajustes
 
 En la reunión del daily se definieron tareas para el equipo de trabajo, iniciando por la creación del index del portal y la recolección de la información que va alimentar al sitio
 
+## septiembre 8
+
+Se adiciona al repositorio el Excel tablas donde se recopilará la información que se publicará en el sitio
+Se adiciona al repositorio la información relacionada con los tipos de café
+
