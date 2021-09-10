@@ -1,0 +1,42 @@
+.service-section {
+	background-color: #FFEFD5;
+	color: #A7815A;
+	font-family: 'Rounded Mplus 1c';
+	text-align: center;
+	font-size: 48px;
+}
+
+.services {
+	display: flex;	
+	justify-content: space-around;
+	align-items: center;
+	height: 337px;
+}
+
+.title-service {
+	font-family: 'Rounded Mplus 1c';
+	font-size: 28px;
+}
+
+.service-column {
+	width: auto;
+}
+
+.service-column__head {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Rounded Mplus 1c';
+	font-size: 18px;
+	letter-spacing: 0;
+}
+
+.service-image {
+	width: 60%;
+}
+
+.separator { 
+	border: 0.3px;
+	border-color: #A7815A;
+	border-style:solid;
+	height: 200px;
+}
+
