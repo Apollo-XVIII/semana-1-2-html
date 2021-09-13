@@ -8,51 +8,35 @@
   justify-content: space-around;
 }
 
-.service {
-  flex: 0 0 400px;
-  margin: 10px;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-}
-
-.title-service {
-  font-family: "Rounded Mplus 1c";
-  font-size: 28px;
-}
-
-.text-service {
-  padding: 0 20px 20px;
-}
-
-.service .text-service > button {
-  background: gray;
-  border: 0;
-  color: white;
-  padding: 10px;
-  width: 100%;
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
 }
 .card {
-  flex: 0 0 200px;
+  flex: 0 0 250px;
   margin: 10px;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 .card img {
   max-width: 100%;
+  padding: 10px;
 }
 .card .text {
   padding: 0 20px 20px;
+  font-size: 12px;
 }
 .card .text > button {
-  background: gray;
-  border: 0;
-  color: white;
   padding: 10px;
   width: 100%;
+  font-size: 14px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #D79771;
+  border-color: #753422;
+}
+
+.text-header {
+    font-size: 22px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
