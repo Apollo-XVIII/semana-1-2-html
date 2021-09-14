@@ -28,6 +28,10 @@ En la reunión del daily se definieron tareas para el equipo de trabajo, inician
 Se adiciona al repositorio el Excel tablas donde se recopilará la información que se publicará en el sitio
 Se adiciona al repositorio la información relacionada con los tipos de café
 
-## septiemre 10
+## septiembre 10
 
 Nos reunimos con el tutor de scrum para hacer entrega del sprint 0
+
+## septiembre 13
+
+Se inicia la construcción de la navegación del sitio (index,receta,histora,noticia)
