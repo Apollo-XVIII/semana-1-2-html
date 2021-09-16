@@ -34,4 +34,13 @@ Nos reunimos con el tutor de scrum para hacer entrega del sprint 0
 
 ## septiembre 13
 
+Se inicia la construcción de la navegación del sitio (index,receta,historía,noticia)
+
+## septiembre 14
+
 Se inicia la construcción de la navegación del sitio (index,receta,histora,noticia)
+
+## septiembre 15
+
+Se inicia la construcción de la navegación del sitio (index,receta,histora,noticia)
+Se crean las ramas para cada historia de usuario
