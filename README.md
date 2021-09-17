@@ -44,3 +44,15 @@ Se inicia la construcción de la navegación del sitio (index,receta,histora,not
 
 Se inicia la construcción de la navegación del sitio (index,receta,histora,noticia)
 Se crean las ramas para cada historia de usuario
+
+## septiembre 16
+
+Se tienen las secciones de historia, recetas y preparaciones
+Se está trabajando en el index para dejarlo como iframe
+Se está completando la información en el archivo de tablas
+
+## septiembre 17
+
+Se está trabajando en el index para dejarlo como iframe
+Se tienen las secciones de historia, recetas y preparaciones
+Se está completando la información en el archivo de tablas
