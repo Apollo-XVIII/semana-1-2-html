@@ -46,7 +46,6 @@ footer {
   margin-top: 20px;
   border-left: 2px solid #370f2e;
   height: 200px;
-  color: beige;
 }
 
 .contacto {
@@ -69,4 +68,34 @@ footer {
   margin-top: 30px;
   color: beige;
   font-size: 18px;
+}
+
+.nos1 {
+  text-align: center;
+  padding-top: 30px;
+  height: 600px;
+  background-color: #ffefd5;
+  justify-content: center;
+  align-items: center;
+  color: #370f2e;
+  padding-bottom: 30px;
+}
+
+.imagen {
+  border-radius: 50%;
+}
+.panel {
+  text-align: center;
+  font-size: 10px;
+  color: #370f2e;
+}
+
+.nombre {
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  color: #370f2e;
+}
+
+.nos1__titulo {
 }
