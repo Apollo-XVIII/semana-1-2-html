@@ -3,7 +3,7 @@
 }
 
 footer {
-  height: 342px;
+  height: 240px;
   background-color: #a7815a;
 }
 
@@ -25,12 +25,48 @@ footer {
   justify-content: center;
 }
 .menu {
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none !important;
+  color: black !important;
 }
 
 .central {
-  height: 342px;
+  height: 200px;
   background-color: #ffffff;
+  color: #370f2e;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.linea {
+  margin-top: 20px;
+  border-left: 2px solid #370f2e;
+  height: 200px;
+  color: beige;
+}
+
+.contacto {
+  margin-top: 40px;
+  color: beige;
+  font-size: 25px;
+}
+
+.datos {
+  color: #370f2e;
+  font-size: 17px;
+}
+
+.footderecho {
+  align-items: center;
+}
+
+.redes {
+  align-items: center;
+  margin-top: 30px;
+  color: beige;
+  font-size: 18px;
 }
