@@ -56,3 +56,8 @@ Se está completando la información en el archivo de tablas
 Se está trabajando en el index para dejarlo como iframe
 Se tienen las secciones de historia, recetas y preparaciones
 Se está completando la información en el archivo de tablas
+
+## septiembre 20
+
+Se publica página base para el manejo del encabezado y del footer para las demás páginas
+Se enlanzan las páginas al encabezado
