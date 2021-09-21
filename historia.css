@@ -41,6 +41,18 @@
     background-color: #a7815a;
     float: left;
     margin: 5px;
+}
+
+.square {
+    float: left;
+    height: 700px;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    border-image-outset: 2px;
+    border-color: black;
+    background-color: #ffefd5;
+}
 
 .box {
     width: 100px;
