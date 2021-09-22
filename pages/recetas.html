@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recetas</title>
+  <link rel="stylesheet" href="../css/secciones.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rounded+Mplus 1c&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="div-recetas" class="container">
+
+    <div class="row title-section">
+      <section id="sectionRecepies" class="col service-section">
+        <article class="title-section">{{ titulo_seccion }}</article>
+        <article v-for="(receta, index) in recetas" :key="index" class="card">
+          <img v-bind:src="receta.imagen"/>
+          <div class="text d-grid gap-2 d-md-block">
+            <h3 class="text-header">{{ receta.nombre }}</h3>
+            <p>{{ receta.descripcion }}</p>
+            <button id="receta1" type="button" class="btn btn-warning" onclick="verReceta()">{{ titulo_boton }}</button>
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="../scripts/recetas.js"></script>
+</body>
+
+</html>
