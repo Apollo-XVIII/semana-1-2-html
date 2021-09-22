@@ -61,3 +61,7 @@ Se está completando la información en el archivo de tablas
 
 Se publica página base para el manejo del encabezado y del footer para las demás páginas
 Se enlanzan las páginas al encabezado
+
+## septiembre 21
+
+Nos reunimos con el tutor para mostrar la navegación del sitio
