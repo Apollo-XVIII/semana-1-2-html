@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-style: double;
+}
+
+.container div {
+    background-color: white;
+    margin: 10px;
+    line-height: 75px;
+    padding: 30px;
+    justify-content: center;
+}
+.forma {
+    border-style: dotted;
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+
+.form-group label {
+    align-items: center;
+    font-size: 15px;
+}
