@@ -9,12 +9,12 @@
     <v-row  justify="space-around">
         
             <h3 class="font-weight-light">
-                Este es el equipo de trabajo del Proyecto Apollo XVIII !!!
+                Este es el equipo de trabajo del Proyecto Apollo XVIII
             </h3 >
     </v-row>
-    <template>
-        <v-container class="brown lighten-3 brown--text">
-            <v-row no-gutters>
+    <template >
+        <v-container class="brown lighten-3 brown--text" >
+            <v-row no-gutters >
                 <v-col>
                     <v-card class="pa-10" height="500px">
                         <template>
@@ -122,7 +122,7 @@
                             </v-row>
                             <v-row justify="space-around">
                                 <h5 class="font-weight-light text-center">
-                                    <br>Ingeniero Electronico - Universidad <br>
+                                    <br>Ingeniero Electrónico - Universidad <br>
                                     Santo Tomas - Experiencia en desarrollo <br>
                                     de maquinaria CNC, Impresoras 3D, <br>
                                     músico aficionado.<br><br><br>

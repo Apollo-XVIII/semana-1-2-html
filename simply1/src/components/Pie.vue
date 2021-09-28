@@ -1,19 +1,27 @@
 <template>
 <v-footer dark padless>
+    
     <v-card class="flex" flat tile>
         <v-spacer></v-spacer>
-        <v-card-title class="brown lighten-1">
+        <v-card-title class="brown lighten-1" justify="space-around">
             <br>
             <br>
 
-            <p class="  darken-5--text font-weight-light"> CONTACTO: <br> </p>
+            <h3 class="  brown--text font-weight-medium d-flex justify-end">
+                <v-container>
 
+                    CONTACTO : <br>
+                </v-container>
+            </h3>
             <v-spacer></v-spacer>
             <br>
-            <h5 class=" font-weight-light">
+            <v-divider vertical></v-divider>
 
-                Oficina principal: Carrera 123 # 45 - 67 Bogotá<br>
-                Tel:(+57) 3106185163
+            <h5 class=" font-weight-light  text-left " justify="space-around">
+                <v-container>
+                    Oficina principal: Carrera 123 # 45 - 67 Bogotá<br>
+                    Tel:(+57) 3106185163
+                </v-container>
             </h5>
 
             <v-spacer></v-spacer>
