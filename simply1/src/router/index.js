@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Recetas from '../views/Recetas.vue'
+import Receta from '../views/Receta.vue'
+import Preparaciones from '../views/Preparaciones.vue'
+import Preparacion from '../views/Preparacion.vue'
 
 Vue.use(VueRouter)
 
@@ -11,10 +15,28 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/recetas',
+    name: 'Recetas',
 
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Recetas.vue')
+  },
+  {
+    path: '/receta',
+    name: 'Receta',
+
+    component: () => import(/* webpackChunkName: "about" */ '../views/Receta.vue')
+  },
+  {
+    path: '/preparaciones',
+    name: 'Preparaciones',
+
+    component: () => import(/* webpackChunkName: "about" */ '../views/Preparaciones.vue')
+  },
+  {
+    path: '/preparacion',
+    name: 'Preparacion',
+
+    component: () => import(/* webpackChunkName: "about" */ '../views/Preparacion.vue')
   },
   {
     path: '/nosotros',
