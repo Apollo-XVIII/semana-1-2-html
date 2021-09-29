@@ -1,31 +1,32 @@
 <template>
-<v-container>
+  <v-container>
     <v-row class="text-center">
-        <v-col cols="12">
-            <v-img :src="require('../img/image1.png')" class="my-3" contain height="90" />
-        </v-col>
+      <v-col cols="12">
+        <v-img
+          :src="require('../img/image1.png')"
+          class="my-3"
+          contain
+          height="90"
+        />
+      </v-col>
 
-        <v-col class="mb-4">
-            <h2 class="display-1 font-weight-bold mb-3">
-                Simply Coffee
-            </h2>
+      <v-col class="mb-4">
+        <h2 class="display-1 font-weight-bold mb-3 brown--text darken-4--text">Simply Coffee</h2>
+      </v-col>
 
-        </v-col>
-
-        <v-col class="mb-5" cols="12" justify="space-around">
-            <v-row >
-
-                <v-tabs >
-                    <v-tab @click="llamarInicio()">Inicio</v-tab>
-                    <v-tab @click="llamarTipos()">Tipos de Café</v-tab>
-                    <v-tab @click="llamarRecetas()">Recetas</v-tab>
-                    <v-tab @click="llamarPreparaciones()">Preparaciones</v-tab>
-                    <v-tab @click="llamarNoticias()">Noticias</v-tab>
-                    <v-tab @click="llamarNosotros()">Nosotros</v-tab>
-                    <v-tab @click="llamarHistoria()">Historia del Café</v-tab>
-                    <v-tab @click="llamarLogin()">Login</v-tab>
-                </v-tabs>
-                <!-- <a
+      <v-col class="mb-5" cols="12">
+        <v-row>
+          <v-tabs>
+            <v-tab @click="llamarInicio()">Inicio</v-tab>
+            <v-tab @click="llamarTipos()">Tipos de Café</v-tab>
+            <v-tab @click="llamarRecetas()">Recetas</v-tab>
+            <v-tab @click="llamarPreparaciones()">Preparaciones</v-tab>
+            <v-tab @click="llamarNoticias()">Noticias</v-tab>
+            <v-tab @click="llamarNosotros()">Nosotros</v-tab>
+            <v-tab @click="llamarHistoria()">Historia del Café</v-tab>
+            <v-tab @click="llamarLogin()">Login</v-tab>
+          </v-tabs>
+          <!-- <a
             v-for="(next, i) in whatsNext"
             :key="i"
             :href="next.href"
@@ -34,66 +35,52 @@
           >
             {{ next.text }}
           </a> -->
-            </v-row>
-        </v-col>
-
+        </v-row>
+      </v-col>
     </v-row>
-</v-container>
+  </v-container>
 </template>
 
 
 <script>
 export default {
-    data() {
-        return {
-
-        }
-        
+  data() {
+    return {};
+  },
+  methods: {
+    llamarInicio() {
+      this.$router.push("/inicio");
     },
-    methods:{
+    llamarTipos() {
+      this.$router.push("/tipos");
+    },
+    llamarRecetas() {
+        this.$router
+            .push({ path: "/recetas" })
+            .catch(() => {});
+    },
+    llamarPreparaciones() {
+        this.$router
+            .push({ path: "/preparaciones" })
+            .catch(() => {});
+    },
+    llamarNoticias() {
+      this.$router.push("/noticias");
+    },
 
-        llamarInicio(){
+    llamarNosotros() {
+      this.$router.push("/nosotros");
+    },
 
-            this.$router.push('/inicio')
-        },
-        llamarTipos(){
+    llamarHistoria() {
+      this.$router.push("/historia");
+    },
 
-            this.$router.push('/tipos')
-        },
-        llamarRecetas(){
-
-            this.$router.push('/recetas')
-        },
-        llamarPreparaciones(){
-
-            this.$router.push('/preparaciones')
-        },
-        llamarNoticias(){
-
-            this.$router.push('/noticias')
-        },
-
-        llamarNosotros(){
-
-            this.$router.push('/nosotros')
-        },
-
-        llamarHistoria(){
-
-            this.$router.push('/historia')
-        },
-
-        llamarLogin(){
-
-            this.$router.push('/login')
-        }
-    
-    }
-
-
-
-
-}
+    llamarLogin() {
+      this.$router.push("/login");
+    },
+  },
+};
 </script>
 
 
