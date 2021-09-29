@@ -21,7 +21,7 @@
 
                             <v-row justify="space-around">
                                 <v-avatar size="150px">
-                                    <img src="../img/moni.png" alt="Moni">
+                                    <img src="../img/moni.jpg" alt="Moni">
                                 </v-avatar>
                             </v-row>
                             <v-row justify="space-around">
@@ -112,7 +112,7 @@
 
                             <v-row justify="space-around">
                                 <v-avatar size="150px">
-                                    <img src="../img/yo.jpg" alt="Moni">
+                                    <img src="../img/mauricio.jpg" alt="Mauricio">
                                 </v-avatar>
                             </v-row>
                             <v-row justify="space-around">

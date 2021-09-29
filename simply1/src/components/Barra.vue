@@ -12,10 +12,10 @@
 
         </v-col>
 
-        <v-col class="mb-5" cols="12">
-            <v-row justify="center text-decoration-none">
+        <v-col class="mb-5" cols="12" justify="space-around">
+            <v-row >
 
-                <v-tabs>
+                <v-tabs >
                     <v-tab @click="llamarInicio()">Inicio</v-tab>
                     <v-tab @click="llamarTipos()">Tipos de Café</v-tab>
                     <v-tab @click="llamarRecetas()">Recetas</v-tab>
@@ -45,6 +45,9 @@
 <script>
 export default {
     data() {
+        return {
+
+        }
         
     },
     methods:{
