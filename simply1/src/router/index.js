@@ -5,7 +5,11 @@ import Recetas from '../views/Recetas.vue'
 import Receta from '../views/Receta.vue'
 import Preparaciones from '../views/Preparaciones.vue'
 import Preparacion from '../views/Preparacion.vue'
-
+import Historia from '../views/Historia.vue'
+import Tipos from '../views/Tipos.vue'
+import Mundo from '../views/Mundo.vue'
+import Variedad from '../views/Variedad.vue'
+import Colombia from '../views/Colombia.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -51,6 +55,49 @@ const routes = [
     
     component: () => import(/* webpackChunkName: "about" */ '../views/Inicio.vue')
   }
+
+  ,
+  {
+    path: '/historia',
+    name: 'Historia',
+    
+    component: () => import(/* webpackChunkName: "about" */ '../views/Historia.vue')
+  }
+
+  ,
+  {
+    path: '/tipos',
+    name: 'Tipos',
+    
+    component: () => import(/* webpackChunkName: "about" */ '../views/Tipos.vue')
+  }
+
+  ,
+  {
+    path: '/mundo',
+    name: 'Mundo',
+    
+    component: () => import(/* webpackChunkName: "about" */ '../views/Mundo.vue')
+  }
+
+  ,
+  {
+    path: '/variedad',
+    name: 'Variedad',
+    
+    component: () => import(/* webpackChunkName: "about" */ '../views/Variedad.vue')
+  }
+
+  ,
+  {
+    path: '/colombia',
+    name: 'Colombia',
+    
+    component: () => import(/* webpackChunkName: "about" */ '../views/Colombia.vue')
+  }
+  
+  
+
 ]
 
 const router = new VueRouter({
