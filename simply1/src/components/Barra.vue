@@ -49,36 +49,49 @@ export default {
   },
   methods: {
     llamarInicio() {
-      this.$router.push("/inicio");
+      this.$router
+        .push({ path: "/inicio" })
+        .catch(() => {});
+ 
     },
     llamarTipos() {
-      this.$router.push("/tipos");
+      this.$router
+        .push({ path: "/tipos" })
+        .catch(() => {});
     },
     llamarRecetas() {
-        this.$router
-            .push({ path: "/recetas" })
-            .catch(() => {});
+      this.$router
+        .push({ path: "/recetas" })
+        .catch(() => {});
     },
     llamarPreparaciones() {
-        this.$router
-            .push({ path: "/preparaciones" })
-            .catch(() => {});
+      this.$router
+        .push({ path: "/preparaciones" })
+        .catch(() => {});
     },
     llamarNoticias() {
-      this.$router.push("/noticias");
-    },
+      this.$router
+        .push({ path: "/noticias" })
+        .catch(() => {});
+     },
 
     llamarNosotros() {
-      this.$router.push("/nosotros");
+      this.$router
+        .push({ path: "/nosotros" })
+        .catch(() => {});
     },
 
     llamarHistoria() {
-      this.$router.push("/historia");
-    },
+      this.$router
+        .push({ path: "/historia" })
+        .catch(() => {});
+     },
 
     llamarLogin() {
-      this.$router.push("/login");
-    },
+      this.$router
+        .push({ path: "/login" })
+        .catch(() => {});
+     },
   },
 };
 </script>
